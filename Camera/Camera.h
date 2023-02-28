@@ -1,0 +1,4 @@
+#ifndef ISS_GAME_CAMERA_H
+#define ISS_GAME_CAMERA_H
+
+#endif //ISS_GAME_CAMERA_H

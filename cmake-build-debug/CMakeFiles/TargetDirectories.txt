@@ -1,0 +1,3 @@
+C:/Works/ISS game/cmake-build-debug/CMakeFiles/ISS_game.dir
+C:/Works/ISS game/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Works/ISS game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
