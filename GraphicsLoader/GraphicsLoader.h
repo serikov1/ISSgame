@@ -5,6 +5,9 @@
 namespace GraphicsLoader {
     // try to load texture from file
     // if success returns pointer to texture otherwise returns nullptr
-    sf::Texture &loadTexture(const std::string &textureLink);
+    sf::Texture *loadTexture(const std::string &textureLink);
+
+    // remove all textures
+    void unloadTextures();
 }
 #endif //ISS_GAME_GRAPHICSLOADER_H

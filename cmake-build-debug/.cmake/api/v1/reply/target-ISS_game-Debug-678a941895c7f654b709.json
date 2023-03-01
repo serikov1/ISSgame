@@ -78,7 +78,8 @@
 				2,
 				3,
 				7,
-				10
+				10,
+				11
 			]
 		}
 	],
@@ -188,7 +189,8 @@
 				2,
 				3,
 				7,
-				10
+				10,
+				11
 			]
 		},
 		{
@@ -200,7 +202,8 @@
 				5,
 				6,
 				8,
-				9
+				9,
+				12
 			]
 		}
 	],
@@ -265,6 +268,17 @@
 			"compileGroupIndex" : 0,
 			"path" : "GraphicsLoader/GraphicsLoader.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "World/World.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "World/World.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

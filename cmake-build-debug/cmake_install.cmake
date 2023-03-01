@@ -1,4 +1,4 @@
-# Install script for directory: C:/Works/ISS game
+# Install script for directory: C:/Works/ISS game/ISSgame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Works/ISS game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Works/ISS game/ISSgame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -3,7 +3,7 @@ project(ISS_game)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCE_FILES main.cpp Camera/Camera.h Camera/Camera.cpp 2DPoint/2DPoint.cpp 2DPoint/2DPoint.h Drawable/Drawable.h 2DObject/2DObject.h 2DObject/2DObject.cpp Settings/Settings.h GraphicsLoader/GraphicsLoader.h GraphicsLoader/GraphicsLoader.cpp)
+set(SOURCE_FILES main.cpp Camera/Camera.h Camera/Camera.cpp 2DPoint/2DPoint.cpp 2DPoint/2DPoint.h Drawable/Drawable.h 2DObject/2DObject.h 2DObject/2DObject.cpp Settings/Settings.h GraphicsLoader/GraphicsLoader.h GraphicsLoader/GraphicsLoader.cpp World/World.cpp World/World.h)
 
 if(${APPLE})
     include_directories(/usr/local/include)

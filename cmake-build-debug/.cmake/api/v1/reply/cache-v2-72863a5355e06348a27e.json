@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Works/ISS game/cmake-build-debug"
+			"value" : "c:/Works/ISS game/ISSgame/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Works/ISS game"
+			"value" : "C:/Works/ISS game/ISSgame"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1271,7 +1271,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Works/ISS game/cmake-build-debug"
+			"value" : "C:/Works/ISS game/ISSgame/cmake-build-debug"
 		},
 		{
 			"name" : "ISS_game_IS_TOP_LEVEL",
@@ -1295,7 +1295,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Works/ISS game"
+			"value" : "C:/Works/ISS game/ISSgame"
 		},
 		{
 			"name" : "Ogg_LIB",
@@ -1328,18 +1328,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libopenal32.a"
-		},
-		{
-			"name" : "SFML_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SFML."
-				}
-			],
-			"type" : "PATH",
-			"value" : "SFML_DIR-NOTFOUND"
 		},
 		{
 			"name" : "SFML_DOC_DIR",

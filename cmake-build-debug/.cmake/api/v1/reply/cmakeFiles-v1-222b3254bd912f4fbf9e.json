@@ -173,8 +173,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Works/ISS game/cmake-build-debug",
-		"source" : "C:/Works/ISS game"
+		"build" : "C:/Works/ISS game/ISSgame/cmake-build-debug",
+		"source" : "C:/Works/ISS game/ISSgame"
 	},
 	"version" : 
 	{

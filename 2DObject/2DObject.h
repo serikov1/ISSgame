@@ -10,7 +10,7 @@
 class Object: virtual public Drawable {
 public:
     explicit Object(Point position = {0, 0}, std::vector<Point> points = {}, double height = 1,
-           std::string texture = WALL_TEXTURE, Point velocity = {0, 0});
+           const std::string& texture = WALL_TEXTURE, Point velocity = {0, 0});
 
     Object(const Object& object);
 
@@ -19,7 +19,7 @@ public:
     // wall - hitted wall.
     // point - cross point.
     // distance - distance from the beginning of wall to the cross point.
-    virtual bool cross(const std::pair<Point, Point>& ray, std::pair<Point, Point>& wall, Point& point, double& distance);
+    virtual bool isCross(const std::pair<Point, Point>& ray, std::pair<Point, Point>& wall, Point& point, double& distance);
 
     // Check segments intersection.
     // Returns true if segments crossing, false otherwise.
@@ -40,7 +40,7 @@ public:
 
     void shift(Point vector);
     std::vector<Point>& nodes();
-    void setPoints2D(std::vector<Point> points);
+    void setPoints(std::vector<Point> points);
 
 //    virtual ObjectType type();
 
