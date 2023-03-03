@@ -6,6 +6,12 @@
 #include "vector"
 #include "../Settings/Settings.h"
 
+enum class ObjectType {
+    Object,
+//    Circle,
+    Player
+};
+
 
 class Object: virtual public Drawable {
 public:
@@ -42,11 +48,12 @@ public:
     std::vector<Point>& nodes();
     void setPoints(std::vector<Point> points);
 
-//    virtual ObjectType type();
+    virtual ObjectType type();
 
+protected:
+    Point position_;
 private:
     std::vector<Point> points_;
-    Point position_;
     Point velocity_;
     std::string nameLink_;
     double height_;

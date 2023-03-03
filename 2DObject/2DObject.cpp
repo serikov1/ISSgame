@@ -115,3 +115,7 @@ std::vector<Point> &Object::nodes() {
 void Object::setPoints(std::vector<Point> points) {
     points_ = std::move(points);
 }
+
+ObjectType Object::type() {
+    return ObjectType::Object;
+}

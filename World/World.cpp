@@ -45,4 +45,36 @@ bool World::addObject(Object &object, const std::string& name) {
     return mapObjects_.insert({name, object}).second;
 }
 
+bool World::removeObject(const std::string &name) {
+    return mapObjects_.erase(name);
+}
+
+bool World::isExist(const std::string &name) const {
+    return mapObjects_.count(name) != 0;
+}
+
+Object &World::findObject(const std::string &name) {
+    return mapObjects_.at(name);
+}
+
+const Object &World::findObject(const std::string &name) const {
+    return mapObjects_.at(name);
+}
+
+Object &World::operator[](const std::string &name) {
+    return findObject(name);
+}
+
+const Object &World::operator[](const std::string &name) const {
+    return findObject(name);
+}
+
+double World::getWidth() const {
+    return width_;
+}
+
+double World::getLength() const {
+    return length_;
+}
+
 

@@ -37,7 +37,7 @@ public:
     double getLength() const;
     
 private:
-    mutable std::map<std::string, Object&> mapObjects_;
+    std::map<std::string, Object&> mapObjects_; // maybe need to be mutable
 
     double length_ = 0;
     double width_ = 0;
