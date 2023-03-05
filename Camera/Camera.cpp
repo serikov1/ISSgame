@@ -1,11 +1,16 @@
 #include "Camera.h"
 #include <cmath>
+#include "../Connection/Client/Client.h"
+//#include "../Weapon/Gun.h"
 
 Camera::Camera(World &world, Point position, double verticalPosition, double height, double direction, double health,
                const std::string& texture, double fieldOfView, double eyesHeight, double depth, double walkSpeed,
                double jumpSpeed, double viewSpeed)
                : world_(world), Player(position, verticalPosition, height, health, texture), direction_(direction),
                fieldOfView_(fieldOfView), eyesHeight_(eyesHeight), depth_(depth), walkSpeed_(walkSpeed) {
+    Gun gun(100000, 0.4, 1, 100, (std::string &) GUN_ARM_TEXTURE, (std::string &)GUN_HANDLE_TEXTURE, (std::string &)GUN_TRUNK_TEXTURE);
+    weapons_.push_back(gun);
+
     for(int i = 0; i < DISTANCES_SEGMENTS; i++) {
         double halfWidth = std::tan(fieldOfView_ / 2) * ((double)SCREEN_WIDTH / SCREEN_HEIGHT);
         double offset = ((i * 2.0 / (DISTANCES_SEGMENTS - 1.0)) - 1.0) * halfWidth;
@@ -98,10 +103,10 @@ bool Camera::keyboardControl(double elapsedTime, sf::RenderWindow &window) {
     }
 
     // Fire
-//    if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
-//        if (weapons_[selectedWeapon_].fire())
-//            fire();
-//    }
+    if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
+        if (weapons_[0].fire())
+            fire();
+    }
 
     // Mouse movement
     if(sf::Mouse::getPosition(window).x != localMousePosition_.x) {
@@ -483,6 +488,17 @@ void Camera::drawHealth(sf::RenderTarget &window, int x, int y, int width, int h
     polygon1.setOutlineThickness(3);
     window.draw(polygon1);
     window.draw(polygon2);
+}
+
+void Camera::fire() {
+    std::pair<Point, Point> seg = {{getX(), getY()}, {getX() + depth_ * std::cos(direction_), getY() + depth_ * std::sin(direction_)}};
+    std::vector<RayCastStructure> rayCastStructure;
+    objectsRayCrossed(seg, rayCastStructure, getName());
+
+    if (!rayCastStructure.empty()) {
+        std::pair<Object*, double> hitted = cameraRayCheck(rayCastStructure[rayCastStructure.size() - 1]);
+        if (hitted.first) client->shoot(hitted.first->getName(), weapons_[0].damage(), hitted.second);
+    }
 }
 
 

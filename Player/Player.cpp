@@ -35,3 +35,7 @@ void Player::setHealth(double h) {
     health_ = h;
 }
 
+ObjectType Player::type() {
+    return ObjectType::Player;
+}
+

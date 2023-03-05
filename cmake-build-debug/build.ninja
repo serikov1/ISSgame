@@ -137,6 +137,54 @@ build CMakeFiles/ISS_game.dir/Menu/Menu.cpp.obj: CXX_COMPILER__ISS_game_Debug C$
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Menu
 
+build CMakeFiles/ISS_game.dir/Weapon/Weapon.cpp.obj: CXX_COMPILER__ISS_game_Debug C$:/Works/ISS$ game/ISSgame/Weapon/Weapon.cpp || cmake_object_order_depends_target_ISS_game
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\ISS_game.dir\Weapon\Weapon.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  OBJECT_DIR = CMakeFiles\ISS_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Weapon
+
+build CMakeFiles/ISS_game.dir/Weapon/Gun.cpp.obj: CXX_COMPILER__ISS_game_Debug C$:/Works/ISS$ game/ISSgame/Weapon/Gun.cpp || cmake_object_order_depends_target_ISS_game
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\ISS_game.dir\Weapon\Gun.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  OBJECT_DIR = CMakeFiles\ISS_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Weapon
+
+build CMakeFiles/ISS_game.dir/Time/Time.cpp.obj: CXX_COMPILER__ISS_game_Debug C$:/Works/ISS$ game/ISSgame/Time/Time.cpp || cmake_object_order_depends_target_ISS_game
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\ISS_game.dir\Time\Time.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  OBJECT_DIR = CMakeFiles\ISS_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Time
+
+build CMakeFiles/ISS_game.dir/Connection/Client/Client.cpp.obj: CXX_COMPILER__ISS_game_Debug C$:/Works/ISS$ game/ISSgame/Connection/Client/Client.cpp || cmake_object_order_depends_target_ISS_game
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\ISS_game.dir\Connection\Client\Client.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  OBJECT_DIR = CMakeFiles\ISS_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Connection\Client
+
+build CMakeFiles/ISS_game.dir/Connection/Server/Server.cpp.obj: CXX_COMPILER__ISS_game_Debug C$:/Works/ISS$ game/ISSgame/Connection/Server/Server.cpp || cmake_object_order_depends_target_ISS_game
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\ISS_game.dir\Connection\Server\Server.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  OBJECT_DIR = CMakeFiles\ISS_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Connection\Server
+
+build CMakeFiles/ISS_game.dir/Connection/Socket/Socket.cpp.obj: CXX_COMPILER__ISS_game_Debug C$:/Works/ISS$ game/ISSgame/Connection/Socket/Socket.cpp || cmake_object_order_depends_target_ISS_game
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\ISS_game.dir\Connection\Socket\Socket.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  OBJECT_DIR = CMakeFiles\ISS_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Connection\Socket
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ISS_game
@@ -145,7 +193,7 @@ build CMakeFiles/ISS_game.dir/Menu/Menu.cpp.obj: CXX_COMPILER__ISS_game_Debug C$
 #############################################
 # Link the executable ISS_game.exe
 
-build ISS_game.exe: CXX_EXECUTABLE_LINKER__ISS_game_Debug CMakeFiles/ISS_game.dir/main.cpp.obj CMakeFiles/ISS_game.dir/Camera/Camera.cpp.obj CMakeFiles/ISS_game.dir/2DPoint/2DPoint.cpp.obj CMakeFiles/ISS_game.dir/2DObject/2DObject.cpp.obj CMakeFiles/ISS_game.dir/GraphicsLoader/GraphicsLoader.cpp.obj CMakeFiles/ISS_game.dir/World/World.cpp.obj CMakeFiles/ISS_game.dir/2DPolygon/2DPolygon.cpp.obj CMakeFiles/ISS_game.dir/2DCircle/2DCircle.cpp.obj CMakeFiles/ISS_game.dir/Player/Player.cpp.obj CMakeFiles/ISS_game.dir/Button/Button.cpp.obj CMakeFiles/ISS_game.dir/Menu/Menu.cpp.obj | C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-audio-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-network-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libopenal32.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libvorbisfile.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libvorbisenc.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libvorbis.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libogg.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libFLAC.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libfreetype.a
+build ISS_game.exe: CXX_EXECUTABLE_LINKER__ISS_game_Debug CMakeFiles/ISS_game.dir/main.cpp.obj CMakeFiles/ISS_game.dir/Camera/Camera.cpp.obj CMakeFiles/ISS_game.dir/2DPoint/2DPoint.cpp.obj CMakeFiles/ISS_game.dir/2DObject/2DObject.cpp.obj CMakeFiles/ISS_game.dir/GraphicsLoader/GraphicsLoader.cpp.obj CMakeFiles/ISS_game.dir/World/World.cpp.obj CMakeFiles/ISS_game.dir/2DPolygon/2DPolygon.cpp.obj CMakeFiles/ISS_game.dir/2DCircle/2DCircle.cpp.obj CMakeFiles/ISS_game.dir/Player/Player.cpp.obj CMakeFiles/ISS_game.dir/Button/Button.cpp.obj CMakeFiles/ISS_game.dir/Menu/Menu.cpp.obj CMakeFiles/ISS_game.dir/Weapon/Weapon.cpp.obj CMakeFiles/ISS_game.dir/Weapon/Gun.cpp.obj CMakeFiles/ISS_game.dir/Time/Time.cpp.obj CMakeFiles/ISS_game.dir/Connection/Client/Client.cpp.obj CMakeFiles/ISS_game.dir/Connection/Server/Server.cpp.obj CMakeFiles/ISS_game.dir/Connection/Socket/Socket.cpp.obj | C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-audio-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-network-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libopenal32.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libvorbisfile.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libvorbisenc.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libvorbis.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libogg.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libFLAC.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libfreetype.a
   FLAGS = -g
   LINK_LIBRARIES = "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libsfml-audio-s-d.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libsfml-network-s-d.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libsfml-graphics-s-d.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libsfml-window-s-d.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libsfml-system-s-d.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libopenal32.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libvorbisfile.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libvorbisenc.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libvorbis.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libogg.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libFLAC.a"  -lws2_32  -lwinmm  -lgdi32  -lOpenGL32  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libfreetype.a"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ISS_game.dir

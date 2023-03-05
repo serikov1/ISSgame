@@ -22,6 +22,8 @@ public:
     void setFullHealth();
     void setHealth(double h);
 
+    ObjectType type() override;
+
 private:
     double verticalPosition_;
     double health_;

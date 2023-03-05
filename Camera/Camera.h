@@ -5,6 +5,9 @@
 #include "../Player/Player.h"
 #include "../World/World.h"
 #include "../Settings/Settings.h"
+#include "../Weapon/Gun.h"
+
+class Client;
 
 struct RayCastStructure {
     double distance; // How far is this texture
@@ -21,14 +24,10 @@ struct CollisionInformation {
 
 class Camera : public Player {
 public:
-//    ClientUDP* client = nullptr;
-
     explicit Camera(World& world, Point position, double verticalPosition = 0, double height = 0.6,
                     double direction = 0, double health = 100, const std::string& texture = SKIN,
                     double fieldOfView = PI / 2, double eyesHeight = 0.5, double depth = 25,
                     double walkSpeed = 1.7, double jumpSpeed = 2.75, double viewSpeed = .005);
-
-//    Camera(const Camera&) = delete;//Camera(const Camera& camera);
 
     void addPlayer(const std::string& name, const std::shared_ptr<Player>& camera);
     void removePlayer(const std::string& name);
@@ -47,15 +46,13 @@ public:
 
     void shiftPrecise(Point vector, double vertical = 0);
 
-//    void previousWeapon();
-//    void nextWeapon();
-
+    Client *client = nullptr;
 private:
     double directionSin = 0;
     double directionCos = 0;
-    double horizontalCos[DISTANCES_SEGMENTS];
-    double horizontalSin[DISTANCES_SEGMENTS];
-    double verticalTan[SCREEN_HEIGHT];
+    double horizontalCos[DISTANCES_SEGMENTS]{};
+    double horizontalSin[DISTANCES_SEGMENTS]{};
+    double verticalTan[SCREEN_HEIGHT]{};
 
     std::vector<std::vector<RayCastStructure>> distances_;
     std::vector<CollisionInformation> allCollisions_;
@@ -67,24 +64,22 @@ private:
     double depth_;
     double verticalSpeed_ = 0;
 
-    double jumpSpeed_;
+    double jumpSpeed_{};
     double walkSpeed_;
-    double viewSpeed_;
+    double viewSpeed_{};
 
     bool collision_ = true;
     bool hadFocus_ = false;
 
     World& world_;
+    std::vector<Weapon> weapons_;
 
     sf::Vector2i localMousePosition_;
 
     bool textures_ = true;
     bool smooth_ = false;
 
-//    std::vector<Weapon> v_weapons;
-//    int i_selectedWeapon = 0;
-
-//    sf::Sound walkSound;
+    //    sf::Sound walkSound;
 
     // find all objects hitted by ray, except object with given name
     void objectsRayCrossed(const std::pair<Point, Point>& ray, std::vector<RayCastStructure>& rayCastStruct,
@@ -102,14 +97,12 @@ private:
 
     std::pair<double, double> heightInPixels(double distance, double height, double vertical);
 
-    static double scalarWithNormal(Point edge, Point vector);
+    static void drawHealth(sf::RenderTarget& window, int x, int y, int width, int health);
 
-//    void fire();
+    void fire();
 
     std::pair<Object*, double> cameraRayCheck(RayCastStructure& structure);
-
-    static void drawHealth(sf::RenderTarget& window, int x, int y, int width, int health);
+    static double scalarWithNormal(Point edge, Point vector);
 };
-
 
 #endif //ISS_GAME_CAMERA_H
