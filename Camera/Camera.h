@@ -32,11 +32,11 @@ public:
     void addPlayer(const std::string& name, const std::shared_ptr<Player>& camera);
     void removePlayer(const std::string& name);
 
-    bool isSmooth();
+    bool isSmooth() const;
     void setSmooth(bool active);
-    bool isCollision();
+    bool isCollision() const;
     void setCollision(bool active);
-    bool isTextures();
+    bool isTextures() const;
     void setTextures(bool active);
 
     bool keyboardControl(double elapsedTime, sf::RenderWindow& window);

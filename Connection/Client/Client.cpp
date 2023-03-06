@@ -1,4 +1,5 @@
 #include <cmath>
+#include <iostream>
 #include "Client.h"
 #include "../../Time/Time.h"
 
@@ -44,7 +45,7 @@ void Client::update() {
     while (working_ && process());
     if (!working_) return;
 
-    if (Time::time() - lastBroadcast_ > 1 / WORLD_UPDATE_RATE && isConnected()) {
+    if (Time::time() - lastBroadcast_ > (double)1 / WORLD_UPDATE_RATE && isConnected()) {
         sf::Packet updatePacket;
         updatePacket << MsgType::PlayerUpdate << localPlayer_->getX() << localPlayer_->getY() << localPlayer_->getVerticalPosition();
         socket_.send(updatePacket, socket_.getServerId());
@@ -54,6 +55,7 @@ void Client::update() {
 }
 
 void Client::shoot(const std::string &name, double damage, double distance) {
+    if(name.empty()) return;
     sf::Packet packet;
     for (auto&& player : players_) {
         if (player.second->getName() == name) {
@@ -76,15 +78,16 @@ bool Client::process() {
     sf::Packet extraPacket;
     sf::Uint16 targetId;
     bool revive;
-    double buf[4];
+    double buf[6];
     Player *player;
 
     switch (type)
     {
         case MsgType::Connect:
+            std::cout<<"Connect";
             packet >> targetId;
             player = new Player({ 2.5, 0 });
-            players_.insert({ targetId, std::shared_ptr<Player>(player) });
+            players_.insert({ targetId, std::shared_ptr<Player>(player)});
             world_.addObject(*players_.at(targetId), "Player" + std::to_string(targetId));
             localPlayer_->addPlayer(players_.at(targetId)->getName(), players_.at(targetId));
             break;
@@ -112,7 +115,8 @@ bool Client::process() {
                 else {
                     player = new Player({2.5, 0});
                 }
-                players_.insert({ targetId, std::shared_ptr<Player>(player) });
+                std::shared_ptr<Player> pplayer = static_cast<std::shared_ptr<Player>>(player);
+                players_.insert({ targetId, pplayer});
                 world_.addObject(*player, "Player" + std::to_string(targetId));
                 player->setPosition({ buf[0], buf[1] });
                 player->setVerticalPosition(buf[2]);
@@ -144,6 +148,15 @@ bool Client::process() {
                 localPlayer_->setPosition({ buf[0], buf[1] });
             else
                 localPlayer_->shiftPrecise({ buf[0], buf[1] });
+            break;
+
+        case MsgType::None:
+            break;
+        case MsgType::Fake:
+            break;
+        case MsgType::Confirm:
+            break;
+        case MsgType::PlayerUpdate:
             break;
     }
     return true;

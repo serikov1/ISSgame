@@ -53,7 +53,7 @@ build CMakeFiles/ISS_game.dir/main.cpp.obj: CXX_COMPILER__ISS_game_Debug C$:/Wor
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\main.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir
 
@@ -61,7 +61,7 @@ build CMakeFiles/ISS_game.dir/Camera/Camera.cpp.obj: CXX_COMPILER__ISS_game_Debu
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\Camera\Camera.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Camera
 
@@ -69,7 +69,7 @@ build CMakeFiles/ISS_game.dir/2DPoint/2DPoint.cpp.obj: CXX_COMPILER__ISS_game_De
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\2DPoint\2DPoint.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\2DPoint
 
@@ -77,7 +77,7 @@ build CMakeFiles/ISS_game.dir/2DObject/2DObject.cpp.obj: CXX_COMPILER__ISS_game_
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\2DObject\2DObject.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\2DObject
 
@@ -85,7 +85,7 @@ build CMakeFiles/ISS_game.dir/GraphicsLoader/GraphicsLoader.cpp.obj: CXX_COMPILE
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\GraphicsLoader\GraphicsLoader.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\GraphicsLoader
 
@@ -93,7 +93,7 @@ build CMakeFiles/ISS_game.dir/World/World.cpp.obj: CXX_COMPILER__ISS_game_Debug 
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\World\World.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\World
 
@@ -101,7 +101,7 @@ build CMakeFiles/ISS_game.dir/2DPolygon/2DPolygon.cpp.obj: CXX_COMPILER__ISS_gam
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\2DPolygon\2DPolygon.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\2DPolygon
 
@@ -109,7 +109,7 @@ build CMakeFiles/ISS_game.dir/2DCircle/2DCircle.cpp.obj: CXX_COMPILER__ISS_game_
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\2DCircle\2DCircle.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\2DCircle
 
@@ -117,7 +117,7 @@ build CMakeFiles/ISS_game.dir/Player/Player.cpp.obj: CXX_COMPILER__ISS_game_Debu
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\Player\Player.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Player
 
@@ -125,7 +125,7 @@ build CMakeFiles/ISS_game.dir/Button/Button.cpp.obj: CXX_COMPILER__ISS_game_Debu
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\Button\Button.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Button
 
@@ -133,7 +133,7 @@ build CMakeFiles/ISS_game.dir/Menu/Menu.cpp.obj: CXX_COMPILER__ISS_game_Debug C$
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\Menu\Menu.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Menu
 
@@ -141,7 +141,7 @@ build CMakeFiles/ISS_game.dir/Weapon/Weapon.cpp.obj: CXX_COMPILER__ISS_game_Debu
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\Weapon\Weapon.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Weapon
 
@@ -149,7 +149,7 @@ build CMakeFiles/ISS_game.dir/Weapon/Gun.cpp.obj: CXX_COMPILER__ISS_game_Debug C
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\Weapon\Gun.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Weapon
 
@@ -157,7 +157,7 @@ build CMakeFiles/ISS_game.dir/Time/Time.cpp.obj: CXX_COMPILER__ISS_game_Debug C$
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\Time\Time.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Time
 
@@ -165,7 +165,7 @@ build CMakeFiles/ISS_game.dir/Connection/Client/Client.cpp.obj: CXX_COMPILER__IS
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\Connection\Client\Client.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Connection\Client
 
@@ -173,7 +173,7 @@ build CMakeFiles/ISS_game.dir/Connection/Server/Server.cpp.obj: CXX_COMPILER__IS
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\Connection\Server\Server.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Connection\Server
 
@@ -181,7 +181,7 @@ build CMakeFiles/ISS_game.dir/Connection/Socket/Socket.cpp.obj: CXX_COMPILER__IS
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\ISS_game.dir\Connection\Socket\Socket.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -isystem "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/include"
+  INCLUDES = -isystem "C:/Works/ISS game/ISSgame/SFML-2.5.1/include"
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   OBJECT_FILE_DIR = CMakeFiles\ISS_game.dir\Connection\Socket
 
@@ -193,9 +193,9 @@ build CMakeFiles/ISS_game.dir/Connection/Socket/Socket.cpp.obj: CXX_COMPILER__IS
 #############################################
 # Link the executable ISS_game.exe
 
-build ISS_game.exe: CXX_EXECUTABLE_LINKER__ISS_game_Debug CMakeFiles/ISS_game.dir/main.cpp.obj CMakeFiles/ISS_game.dir/Camera/Camera.cpp.obj CMakeFiles/ISS_game.dir/2DPoint/2DPoint.cpp.obj CMakeFiles/ISS_game.dir/2DObject/2DObject.cpp.obj CMakeFiles/ISS_game.dir/GraphicsLoader/GraphicsLoader.cpp.obj CMakeFiles/ISS_game.dir/World/World.cpp.obj CMakeFiles/ISS_game.dir/2DPolygon/2DPolygon.cpp.obj CMakeFiles/ISS_game.dir/2DCircle/2DCircle.cpp.obj CMakeFiles/ISS_game.dir/Player/Player.cpp.obj CMakeFiles/ISS_game.dir/Button/Button.cpp.obj CMakeFiles/ISS_game.dir/Menu/Menu.cpp.obj CMakeFiles/ISS_game.dir/Weapon/Weapon.cpp.obj CMakeFiles/ISS_game.dir/Weapon/Gun.cpp.obj CMakeFiles/ISS_game.dir/Time/Time.cpp.obj CMakeFiles/ISS_game.dir/Connection/Client/Client.cpp.obj CMakeFiles/ISS_game.dir/Connection/Server/Server.cpp.obj CMakeFiles/ISS_game.dir/Connection/Socket/Socket.cpp.obj | C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-audio-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-network-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libopenal32.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libvorbisfile.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libvorbisenc.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libvorbis.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libogg.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libFLAC.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libfreetype.a
+build ISS_game.exe: CXX_EXECUTABLE_LINKER__ISS_game_Debug CMakeFiles/ISS_game.dir/main.cpp.obj CMakeFiles/ISS_game.dir/Camera/Camera.cpp.obj CMakeFiles/ISS_game.dir/2DPoint/2DPoint.cpp.obj CMakeFiles/ISS_game.dir/2DObject/2DObject.cpp.obj CMakeFiles/ISS_game.dir/GraphicsLoader/GraphicsLoader.cpp.obj CMakeFiles/ISS_game.dir/World/World.cpp.obj CMakeFiles/ISS_game.dir/2DPolygon/2DPolygon.cpp.obj CMakeFiles/ISS_game.dir/2DCircle/2DCircle.cpp.obj CMakeFiles/ISS_game.dir/Player/Player.cpp.obj CMakeFiles/ISS_game.dir/Button/Button.cpp.obj CMakeFiles/ISS_game.dir/Menu/Menu.cpp.obj CMakeFiles/ISS_game.dir/Weapon/Weapon.cpp.obj CMakeFiles/ISS_game.dir/Weapon/Gun.cpp.obj CMakeFiles/ISS_game.dir/Time/Time.cpp.obj CMakeFiles/ISS_game.dir/Connection/Client/Client.cpp.obj CMakeFiles/ISS_game.dir/Connection/Server/Server.cpp.obj CMakeFiles/ISS_game.dir/Connection/Socket/Socket.cpp.obj | ../SFML-2.5.1/lib/libsfml-audio-s-d.a ../SFML-2.5.1/lib/libsfml-network-s-d.a ../SFML-2.5.1/lib/libsfml-graphics-s-d.a ../SFML-2.5.1/lib/libsfml-window-s-d.a ../SFML-2.5.1/lib/libsfml-system-s-d.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libopenal32.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libvorbisfile.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libvorbisenc.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libvorbis.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libogg.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libFLAC.a C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/libfreetype.a
   FLAGS = -g
-  LINK_LIBRARIES = "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libsfml-audio-s-d.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libsfml-network-s-d.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libsfml-graphics-s-d.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libsfml-window-s-d.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libsfml-system-s-d.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libopenal32.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libvorbisfile.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libvorbisenc.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libvorbis.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libogg.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libFLAC.a"  -lws2_32  -lwinmm  -lgdi32  -lOpenGL32  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libfreetype.a"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = ../SFML-2.5.1/lib/libsfml-audio-s-d.a  ../SFML-2.5.1/lib/libsfml-network-s-d.a  ../SFML-2.5.1/lib/libsfml-graphics-s-d.a  ../SFML-2.5.1/lib/libsfml-window-s-d.a  ../SFML-2.5.1/lib/libsfml-system-s-d.a  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libopenal32.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libvorbisfile.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libvorbisenc.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libvorbis.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libogg.a"  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libFLAC.a"  -lws2_32  -lwinmm  -lgdi32  -lOpenGL32  "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/libfreetype.a"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ISS_game.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -248,14 +248,14 @@ build all: phony ISS_game.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake ../SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake ../SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake ../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake ../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake ../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake C$:/PHYSTECH/infa/code$ clion/lib/sfml/GCC$ 7.3.0$ MinGW$ (SEH)$ -$ 64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake ../SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake ../SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake ../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake ../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake ../SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeRCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################

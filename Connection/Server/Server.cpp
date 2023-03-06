@@ -114,6 +114,17 @@ bool Server::process() {
             }
             socket_.sendRely(sendPacket, targetId);
             break;
+
+        case MsgType::None:
+            break;
+        case MsgType::Fake:
+            break;
+        case MsgType::Confirm:
+            break;
+        case MsgType::WorldInit:
+            break;
+        case MsgType::WorldUpdate:
+            break;
     }
     return true;
 }

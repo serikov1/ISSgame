@@ -102,12 +102,11 @@ int main() {
 
         // Title update
         std::string title = "Pseudo3DEngine " + std::to_string((double) 1 / elapsedTime) + "fps.";
-        if (camera != nullptr)
-            title += " x:" + std::to_string(camera->getX()) + ", y:" + std::to_string(camera->getY());
+        if (camera != nullptr) title += " x:" + std::to_string(camera->getX()) + ", y:" + std::to_string(camera->getY());
         window.setTitle(title);
 
         // Close event search
-        sf::Event event;
+        sf::Event event{};
         while (window.pollEvent(event)) {
             if (event.type == sf::Event::Closed) window.close();
         }
@@ -120,7 +119,7 @@ int main() {
             camera->drawCameraView(window);
             //world.draw(window); // top-down debug map. To fix exception - look into "Camera::updateDistances"
 
-            // if escape was pressed
+//             if escape was pressed
             if (!camera->keyboardControl(elapsedTime, window)) {
                 client.disconnect();
                 server.stop();
@@ -167,4 +166,5 @@ int main() {
         window.display();
     }
     GraphicsLoader::unloadTextures();
+    return 0;
 }

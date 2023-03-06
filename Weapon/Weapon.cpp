@@ -1,6 +1,7 @@
 #include <chrono>
 #include <cmath>
 #include <utility>
+#include <iostream>
 #include "../2DPoint/2DPoint.h"
 #include "Weapon.h"
 #include "../GraphicsLoader/GraphicsLoader.h"
@@ -63,10 +64,10 @@ bool Weapon::fire() {
     return false;
 }
 
-Weapon::Weapon(int amount, double speed, int damage, double amplitude, const std::string &weaponArmLink, const std::string &weaponHandleLink,
-               const std::string &weaponTrunkLink)
-               : amount_(amount), speed_(speed), damage_(damage), amplitude_(amplitude), weaponArmLink_(weaponArmLink),
-               weaponHandleLink_(weaponHandleLink), weaponTrunkLink_(weaponTrunkLink) {
+Weapon::Weapon(int amount, double speed, int damage, double amplitude, std::string weaponArmLink, std::string weaponHandleLink,
+               std::string weaponTrunkLink)
+               : amount_(amount), speed_(speed), damage_(damage), amplitude_(amplitude), weaponArmLink_(std::move(weaponArmLink)),
+               weaponHandleLink_(std::move(weaponHandleLink)), weaponTrunkLink_(std::move(weaponTrunkLink)) {
     weaponArm_.setTexture(*GraphicsLoader::loadTexture(weaponArmLink_));
     weaponHandle_.setTexture(*GraphicsLoader::loadTexture(weaponHandleLink_));
     weaponTrunk_.setTexture(*GraphicsLoader::loadTexture(weaponTrunkLink_));
@@ -74,6 +75,5 @@ Weapon::Weapon(int amount, double speed, int damage, double amplitude, const std
     aim_.setTexture(*GraphicsLoader::loadTexture(AIM_TEXTURE));
     aim_.scale(.05f, .05f);
     fire_.setTexture(*GraphicsLoader::loadTexture(FIRE_TEXTURE));
-
 }
 

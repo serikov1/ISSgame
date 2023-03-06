@@ -21,7 +21,7 @@ else()
 
 endif()
 
-set(SFML_DIR "C:/PHYSTECH/infa/code clion/lib/sfml/GCC 7.3.0 MinGW (SEH) - 64-bit/SFML-2.5.1/lib/cmake/SFML")
+set(SFML_DIR "C:/Works/ISS game/ISSgame/SFML-2.5.1/lib/cmake/SFML")
 
 find_package(SFML 2.5 REQUIRED graphics network audio window system)
 if (SFML_FOUND)

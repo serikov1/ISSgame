@@ -22,27 +22,23 @@ bool Circle::isCross(const std::pair<Point, Point> &ray, std::pair<Point, Point>
     auto c = static_cast<float>((offset.x * offset.x + offset.y * offset.y) - radius_ * radius_);
 
     float discriminant = b * b - 4 * a * c;
-    if (discriminant >= 0)
-    {
+    if (discriminant >= 0) {
         discriminant = std::sqrt(discriminant);
         float t1 = (-b - discriminant) / (2 * a);
         float t2 = (-b + discriminant) / (2 * a);
 
-        if (t1 >= 0 && t1 <= 1)
-        {
+        if (t1 >= 0 && t1 <= 1) {
             point.x = ray.first.x + t1 * segment.x;
             point.y = ray.first.y + t1 * segment.y;
             success = true;
         }
-        else if (t2 >= 0 && t2 <= 1)
-        {
+        else if (t2 >= 0 && t2 <= 1) {
             point.x = ray.first.x + t2 * segment.x;
             point.y = ray.first.y + t2 * segment.y;
             success = true;
         }
     }
-    if (success)
-    {
+    if (success) {
         double cx = cos(PI / 4), cy = sin(PI / 4);
         Point diff = point - position_;
         double angle = std::atan2((cx * diff.y - cy * diff.x) / radius_, (cx * diff.x + cy * diff.y) / radius_);

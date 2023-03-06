@@ -67,7 +67,7 @@
 // weapon
 #define GUN_ARM_TEXTURE "../Texture/Weapon/Gun/arm.png"
 #define GUN_HANDLE_TEXTURE "../Texture/Weapon/Gun/handle.png"
-#define GUN_TRUNK_TEXTURE "../Texture/Weapon/Gun/truck.png"
+#define GUN_TRUNK_TEXTURE "../Texture/Weapon/Gun/trunk.png"
 
 // network
 #define TIMEOUT_SECONDS 5

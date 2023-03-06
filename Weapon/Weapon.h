@@ -8,7 +8,7 @@ class Weapon : virtual public Drawable {
 public:
 //    Weapon(const Weapon &weapon);
     Weapon(int amount, double speed, int damage, double amplitude,
-           const std::string &weaponArmLink, const std::string &weaponHandleLink, const std::string &weaponTrunkLink);
+           std::string weaponArmLink, std::string weaponHandleLink, std::string weaponTrunkLink);
 
     void draw(sf::RenderTarget &window) override;
 

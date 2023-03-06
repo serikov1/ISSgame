@@ -1,5 +1,6 @@
 #include "Camera.h"
 #include <cmath>
+#include <iostream>
 #include "../Connection/Client/Client.h"
 //#include "../Weapon/Gun.h"
 
@@ -8,7 +9,9 @@ Camera::Camera(World &world, Point position, double verticalPosition, double hei
                double jumpSpeed, double viewSpeed)
                : world_(world), Player(position, verticalPosition, height, health, texture), direction_(direction),
                fieldOfView_(fieldOfView), eyesHeight_(eyesHeight), depth_(depth), walkSpeed_(walkSpeed) {
-    Gun gun(100000, 0.4, 1, 100, (std::string &) GUN_ARM_TEXTURE, (std::string &)GUN_HANDLE_TEXTURE, (std::string &)GUN_TRUNK_TEXTURE);
+
+    Gun gun(100000, 0.4, 1, 100, GUN_ARM_TEXTURE, GUN_HANDLE_TEXTURE, GUN_TRUNK_TEXTURE);
+
     weapons_.push_back(gun);
 
     for(int i = 0; i < DISTANCES_SEGMENTS; i++) {
@@ -27,6 +30,7 @@ Camera::Camera(World &world, Point position, double verticalPosition, double hei
         dir = dir.normalize();
         verticalTan[i] = tan(atan2(dir.y, dir.x));
     }
+
 }
 
 void Camera::addPlayer(const std::string& name, const std::shared_ptr<Player>& camera) {
@@ -37,7 +41,7 @@ void Camera::removePlayer(const std::string &name) {
     playersOnTheScreen_.erase(name);
 }
 
-bool Camera::isSmooth() {
+bool Camera::isSmooth() const {
     return smooth_;
 }
 
@@ -45,7 +49,7 @@ void Camera::setSmooth(bool active) {
     smooth_ = active;
 }
 
-bool Camera::isCollision() {
+bool Camera::isCollision() const {
     return collision_;
 }
 
@@ -53,7 +57,7 @@ void Camera::setCollision(bool active) {
     collision_ = active;
 }
 
-bool Camera::isTextures() {
+bool Camera::isTextures() const {
     return textures_;
 }
 
@@ -159,10 +163,8 @@ void Camera::updateDistances(const World &world) {
 
         objectsRayCrossed(extraSegment, rayCastStructure, getName());
 
-        if(!rayCastStructure.empty())
-            distances_.push_back(rayCastStructure);
-        else
-            distances_.push_back({{depth_, 0, nullptr, 1}});
+        if(!rayCastStructure.empty()) distances_.push_back(rayCastStructure);
+        else distances_.push_back({{depth_, 0, nullptr, 1}});
     }
 
     // Invisible for player segments
@@ -172,7 +174,6 @@ void Camera::updateDistances(const World &world) {
         std::pair<Point, Point> extraSegment;
         double direction = direction_ + ((double)i / DISTANCES_SEGMENTS - 0.5) * fieldOfView_;
         extraSegment = {{getX(), getY()}, {getX() + COLLISION_AREA * cos(direction), getY() + COLLISION_AREA * std::sin(direction)} };
-
         hiddenObjectsRayCrossed(extraSegment, getName());
     }
 }
@@ -239,7 +240,7 @@ void Camera::drawCameraView(sf::RenderTarget &window) {
         }
     }
     drawHealth(window, 50, SCREEN_HEIGHT - 50, 400, (int)getHealth());
-//    weapons_[i_selectedWeapon].draw(window);
+    weapons_[0].draw(window);
 }
 
 void Camera::draw(sf::RenderTarget &window) {
