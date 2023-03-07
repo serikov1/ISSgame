@@ -113,7 +113,7 @@ int main() {
 
         // Actually game
         window.clear();
-        if (!menu.isPaused()) {
+        if (!menu.isPaused() && camera != nullptr) {
             window.setMouseCursorVisible(false);
             camera->updateDistances(world);
             camera->drawCameraView(window);

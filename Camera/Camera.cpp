@@ -365,42 +365,58 @@ void Camera::hiddenObjectsRayCrossed(const std::pair<Point, Point> &ray, const s
 
 void Camera::drawVerticalStrip(sf::RenderTarget &window, const RayCastStructure &obj, int shift, int f) {
     int horIndex = shift / (SCREEN_WIDTH / DISTANCES_SEGMENTS);
-    sf::ConvexShape polygon;
-    polygon.setPointCount(4);
+    int h2;
+    if (obj.object == nullptr)
+        h2 = SCREEN_HEIGHT / 2;
+    else {
+        sf::ConvexShape polygon;
+        polygon.setPointCount(4);
 
-    double vertical = 0;
-    if(obj.object->type() == ObjectType::Player) vertical = dynamic_cast<Player*>(obj.object)->getVerticalPosition();
+        double vertical = 0;
+        if (obj.object->type() == ObjectType::Player)
+            vertical = dynamic_cast<Player *>(obj.object)->getVerticalPosition();
 
-    std::pair<double, double> height_now = heightInPixels(obj.distance * horizontalCos[horIndex], obj.height, vertical);
+        std::pair<double, double> height_now = heightInPixels(obj.distance * horizontalCos[horIndex], obj.height,
+                                                              vertical);
 
-    int alpha = (int)(255 * (1 - obj.distance / depth_));
-    if (alpha > 255) alpha = 255;
-    if (alpha < 0) alpha = 0;
-    alpha = 255 - alpha;
+        int alpha = (int) (255 * (1 - obj.distance / depth_));
+        if (alpha > 255) alpha = 255;
+        if (alpha < 0) alpha = 0;
+        alpha = 255 - alpha;
 
-    if (!textures_) polygon.setFillColor({ 255, 174, 174, static_cast<sf::Uint8>(alpha)});
-    else polygon.setFillColor({ 255, 255, 255, static_cast<sf::Uint8>(alpha)});
+        if (!textures_) polygon.setFillColor({255, 174, 174, static_cast<sf::Uint8>(alpha)});
+        else polygon.setFillColor({255, 255, 255, static_cast<sf::Uint8>(alpha)});
 
-    //polygon.setOutlineThickness(0); // we can make non zero thickness for debug
-    polygon.setPosition((float)(shift * SCREEN_WIDTH / DISTANCES_SEGMENTS), 0);
+        int h1 = height_now.first;
+        h2 = height_now.second;
 
-    sf::Sprite sprite;
-    if (obj.object && textures_) {
-        sprite.setPosition(sf::Vector2f((float)shift * SCREEN_WIDTH / DISTANCES_SEGMENTS, (float)SCREEN_HEIGHT/2)); // absolute position
-        int left, top, bot;
-        sprite.setTexture(obj.object->loadTexture());
-        left = obj.progress * SCREEN_WIDTH;
-        top = 0;
-        bot = SCREEN_HEIGHT;
-        sprite.scale(1, (float)(height_now.second - height_now.first) / SCREEN_HEIGHT);
+        polygon.setPoint(0, sf::Vector2f(0, (float)h1));
+        polygon.setPoint(1, sf::Vector2f(0, (float)h2));
+        polygon.setPoint(2, sf::Vector2f((float)SCREEN_WIDTH / DISTANCES_SEGMENTS, (float)h2));
+        polygon.setPoint(3, sf::Vector2f((float)SCREEN_WIDTH / DISTANCES_SEGMENTS, (float)h1));
+
+        //polygon.setOutlineThickness(0); // we can make non zero thickness for debug
+        polygon.setPosition((float) (shift * SCREEN_WIDTH / DISTANCES_SEGMENTS), 0);
+
+        sf::Sprite sprite;
+        if (obj.object && textures_) {
+            sprite.setPosition(sf::Vector2f((float) shift * SCREEN_WIDTH / DISTANCES_SEGMENTS,
+                                            (float)h1)); // absolute position
+            int left, top, bot;
+            sprite.setTexture(obj.object->loadTexture());
+            left = obj.progress * SCREEN_WIDTH;
+            top = 0;
+            bot = SCREEN_HEIGHT;
+            sprite.scale(1, (float) (height_now.second - height_now.first) / SCREEN_HEIGHT);
 
 
-        sprite.setTextureRect(sf::IntRect(left, top, SCREEN_WIDTH / DISTANCES_SEGMENTS, bot - top));
-        window.draw(sprite);
+            sprite.setTextureRect(sf::IntRect(left, top, SCREEN_WIDTH / DISTANCES_SEGMENTS, bot - top));
+            window.draw(sprite);
+        }
+
+        if (std::abs(obj.distance - depth_) > 0.001)
+            window.draw(polygon);
     }
-
-    if (std::abs(obj.distance - depth_) > 0.001)
-        window.draw(polygon);
 
     // Floor drawing
     int x = shift * SCREEN_WIDTH / DISTANCES_SEGMENTS;
